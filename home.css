@@ -1,0 +1,154 @@
+#mainContainer
+{
+	margin-left: auto;
+    margin-right: auto;
+    width: 600px;	
+	padding: 20px;
+	background-color: #ffffff;
+}
+
+body
+{
+	background-image: url("background.png");	
+	background-color: #15315c;
+}
+
+.betTable
+{
+	width: 100%;
+}
+
+.slipTable
+{
+	width: 100%;
+}
+
+.betTableC0
+{
+	background:    #3dc6c1;
+	background:    -webkit-linear-gradient(#3dc6c1, #076363);
+	background:    linear-gradient(#3dc6c1, #076363);
+	color:         #fff;		
+	font:          normal 700 18px/1 "Calibri", sans-serif;
+	text-align:    center;
+	text-shadow:   1px 1px 0 #000;
+}
+
+.betTableC1
+{
+	background:    #f9cb9c;
+	background:    -webkit-linear-gradient(#f9cb9c, #f1c232);
+	background:    linear-gradient(#f9cb9c, #f1c232);
+	color:         #f00;		
+	font:          normal 700 18px/1 "Calibri", sans-serif;
+	text-align:    center;
+	text-shadow:   1px 1px 0 #f3f3f3;
+}
+
+.betTableC2.unselected
+{
+	background:    #3dc65f;
+	background:    -webkit-linear-gradient(#3dc65f, #076331);
+	background:    linear-gradient(#3dc65f, #076331);
+	color:         #fff;	
+	padding:       8px 20px;
+	font:          normal 700 24px/1 "Calibri", sans-serif;
+	text-align:    center;
+	text-shadow:   1px 1px 0 #000;
+}
+
+.betTableC2.unselected:hover
+{
+	background: #017c1c -moz-linear-gradient(center top , #028215 0px, #17a93c 50%, #009517 50%, #1abf47 100%) repeat-x scroll left center;
+}
+
+.betTableC2.selected
+{
+	background:    #c00;
+	background:    -webkit-linear-gradient(#c00, #600);
+	background:    linear-gradient(#c00, #600);
+	color:         #fff;
+	padding:       8px 20px;
+	font:          normal 700 24px/1 "Calibri", sans-serif;
+	text-align:    center;
+	text-shadow:   1px 1px 0 #000;
+}
+
+.betTableC2.selected:hover
+{
+	background:    #880e0e;
+	background:    -webkit-linear-gradient(#880e0e, #480808);
+	background:    linear-gradient(#880e0e, #480808);
+	color:         #fff;	
+	padding:       8px 20px;
+	font:          normal 700 24px/1 "Calibri", sans-serif;
+	text-align:    center;
+	text-shadow:   1px 1px 0 #000;
+}
+
+.pushable:hover
+{
+	cursor: pointer;
+}
+
+.betSubmit
+{
+	background:    #3d85c6;
+	background:    -webkit-linear-gradient(#3d85c6, #073763);
+	background:    linear-gradient(#3d85c6, #073763);
+	border-radius: 5px;
+	box-shadow:    0 1px 0 0 #444;
+	color:         #fff;
+	display:       inline-block;
+	padding:       8px 20px;
+	font:          normal 700 24px/1 "Calibri", sans-serif;
+	text-align:    center;
+	text-shadow:   1px 1px 0 #000;
+}
+
+.betSubmit:hover
+{
+	background:    #1f66a7;
+	background:    -webkit-linear-gradient(#1f66a7, #052b4d);
+	background:    linear-gradient(#1f66a7, #052b4d);
+}
+
+.overlay
+{
+	height: 100%; 
+	width: 100%;
+	position: absolute; 	 
+	top: 0px; 
+	left: 0px; 
+	right: 0px; 
+	bottom: 0px; 
+	z-index: 1; 
+	opacity: 0.4; 
+	display: none; 
+	background: #000000;
+}
+
+.receiptContainer
+{	
+	margin-left: 25%; 	
+	width: 550px;
+	padding: 50px;
+	height: 50%;
+	z-index: 2; 
+	position: fixed; 	
+	margin-top: -500px;
+	background-color: #ffffff;
+}
+
+.receiptHeader
+{
+	color: #E80B1D;
+	float: right;
+	width: 55px;
+	cursor: pointer;
+}
+
+.betSlipContainer
+{
+	display: none;
+}

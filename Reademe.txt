@@ -1,0 +1,9 @@
+INSTRUCTIONS:
+
+This web application has been developed in PHP, therefore it requires to be deployed to a PHP compatible server. 
+For development and testing Wampserver 2.5 32bit has been used. Find instructions for installation at http://www.wampserver.com/en/ .
+After Wamp has been installed, the unzipped "ebet" folder shall be copied to "C:\wamp\www", the root location for Wamp.
+The application can be then accessed using any web browser, at "http://localhost/ebet/".
+
+Claudiu Dumitrascu
+claudiu.dumitrascu7@gmail.com
