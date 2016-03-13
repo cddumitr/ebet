@@ -3,8 +3,8 @@
 	<head>
 		<title>Football Betting</title>
 		<link rel="stylesheet" type="text/css" href="home.css" media="all" />
-		<script type="text/javascript" src="/ebet/jssource/jquery-1.8.2.js"></script>
-		<script type="text/javascript" src="/ebet/jssource/home.js"></script>
+		<script type="text/javascript" src="./jssource/jquery-1.8.2.js"></script>
+		<script type="text/javascript" src="./jssource/home.js"></script>
 	</head>
 	<body>
 		<?php
